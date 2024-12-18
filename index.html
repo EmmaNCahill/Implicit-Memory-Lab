@@ -10,153 +10,73 @@
     <link rel="icon" type="image/png" href="favicon.png">
   
     <!-- Stylesheets -->
-    <!-- Reset default styles and add support for google fonts -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
     <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
-   
-    <!-- Custom styles -->
     <link href="style.css" rel="stylesheet" type="text/css" />
 
     <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
-
-    <!-- Want to add Bootstrap? -->
-    <!-- Visit: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
-    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   </head>
   
   <body>
-
-   <header id="header" style="display: flex; align-items: center; padding: 20px; background-color: green;">
-    <img src="logo.jpg" alt="Implicit Memory Lab Logo" style="width: 200px; height: auto; margin-right: 20px;">
-    <h1 style="font-size: 40px; color: black; margin: 0;">Implicit Memory Lab</h1>
-</header>
-      
-      <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
-      <ul class="main-menu">
-        <li><a href="#Welcome">Welcome</a></li>
-        <li><a href="#about">About our research</a></li>
-        <li><a href="#contact">Lab Members</a></li>
-        <li><a href="#Research-tool-sharing">Research tools sharing</a></li>
-      </ul>                 
+    <header id="header" style="display: flex; align-items: center; padding: 20px; background-color: green;">
+      <img src="logo.jpg" alt="Implicit Memory Lab Logo" style="width: 200px; height: auto; margin-right: 20px;">
+      <h1 style="font-size: 40px; color: black; margin: 0;">Implicit Memory Lab</h1>
     </header>
-   
+      
+    <!-- Menu link fragment #id should match a div id. -->
+    <ul class="main-menu">
+      <li><a href="#Welcome">Welcome</a></li>
+      <li><a href="#about">About our research</a></li>
+      <li><a href="#contact">Lab Members</a></li>
+      <li><a href="#Research-tool-sharing">Research tools sharing</a></li>
+    </ul>   
+
     <div id="container">
       <div class="inner">
         <div id="content"> 
-          
-       <div id="Welcome" class="content-region hide">
+          <div id="Welcome" class="content-region hide">
             <h2>Welcome</h2>
-            <p>  
-              Our work focuses on how memories are made and stored in the brain. Our goal is to discover mechanisms underlying different types of memory, and use this knowledge with our collaborators to develop interventions to promote mental health.
-            </p>
-            <p>  
-             Current projects in the group include analysis of the neurochemical signalling requirements of memories associated with drugs of abuse or memories of aversive events.
-            </p>
-              <p>
-              If you are interested in joining the team, collaborating, or for media inquiries, please email Dr. Cahill at <a href="mailto:emma.n.cahill@bristol.ac.uk">emma.n.cahill@bristol.ac.uk</a>.
-            </p>
-            </div>
+            <p>Our work focuses on how memories are made and stored in the brain. Our goal is to discover mechanisms underlying different types of memory, and use this knowledge with our collaborators to develop interventions to promote mental health.</p>
+            <p>Current projects in the group include analysis of the neurochemical signalling requirements of memories associated with drugs of abuse or memories of aversive events.</p>
+            <p>If you are interested in joining the team, collaborating, or for media inquiries, please email Dr. Cahill at <a href="mailto:emma.n.cahill@bristol.ac.uk">emma.n.cahill@bristol.ac.uk</a>.</p>
+          </div>
           
-        <div id="about" class="content-region hide">
-            <h2>About our reseach</h2>
-            <p>
-              We are a research laboratory team based in the University of Bristol, in the South West of England. The principal investigator (PI) is Emma Nuala Cahill (PhD). 
-            </p>
-             <p>
-              Learn more about our research publications by visiting 
-            <a href="https://research-information.bris.ac.uk/en/persons/emma-n-cahill" target="_blank">Emma N. Cahill's profile</a>.
-            </p>
+          <div id="about" class="content-region hide">
+            <h2>About our research</h2>
+            <p>We are a research laboratory team based in the University of Bristol, in the South West of England. The principal investigator (PI) is Emma Nuala Cahill (PhD).</p>
+            <p>Learn more about our research publications by visiting <a href="https://research-information.bris.ac.uk/en/persons/emma-n-cahill" target="_blank">Emma N. Cahill's profile</a>.</p>
             <div style="margin-top: 20px;">
-             <iframe width="560" height="315" src="https://www.youtube.com/embed/RG1JuOnH_cs?si=0Q1qBYj2fd9RUlw4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-               <p>
-               <iframe width="560" height="315" src="https://www.youtube.com/embed/vt2eJ8CK2nk?si=F0ZQ_VRi4Z9GLKSS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-               </p>
-              </div>
-            
-        <div id="contact" class="content-region hide">
-               <h2>Lab Members</h2>
-               <p>
-               <figure style="display: flex; align-items: center; max-width: 600px; margin: auto;">
-                <img src="Diego Mediane.jpg" alt="PhD student Diego Mediane headshot" 
-                 style="width: 300px; height: auto; border: 2px solid #ddd; border-radius: 9px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); margin-right: 20px;">
-                <figcaption style="text-align: left; font-style: italic; font-size: 16px; color:#81C784;">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/RG1JuOnH_cs?si=0Q1qBYj2fd9RUlw4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/vt2eJ8CK2nk?si=F0ZQ_VRi4Z9GLKSS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+          </div>
+
+          <div id="contact" class="content-region hide">
+            <h2>Lab Members</h2>
+            <figure style="display: flex; align-items: center; max-width: 600px; margin: auto;">
+              <img src="Diego Mediane.jpg" alt="PhD student Diego Mediane headshot" style="width: 300px; height: auto; border: 2px solid #ddd; border-radius: 9px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); margin-right: 20px;">
+              <figcaption style="text-align: left; font-style: italic; font-size: 16px; color:#81C784;">
                 Diego Hassan Mediane is a PhD student working on the role of cerebellar circuits in social behaviour and memory, in collaboration with Dr Paul Anatasiades.
-                </figcaption>
-                </figure>
-                    </p>
-                 <p>
-        <figure style="display: flex; align-items: center; max-width: 600px; margin: auto;">
-        <img src="katie Kamenish.jpg" alt="PhD student Katie Kamenish headshot" 
-           style="width: 300px; height: auto; border: 2px solid #ddd; border-radius: 9px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); margin-right: 20px;">
-        <figcaption style="text-align: left; font-style: italic; font-size: 16px; color:#81C784;">
-           Katie Kamenish is a PhD student working on the effects of Kappa opioid receptor targetting drugs in affective behaviour, in collaboration with Prof Emma Robinson and DevelEx.
-        </figcaption>
-        </figure>
-                         </p>
-                      <p>
-          <figure style="display: flex; align-items: center; max-width: 600px; margin: auto;">
-        <img src="Raven_J_Hope.jpeg" alt="Research assitant Raven J Hope headshot" 
-             style="width: 200px; height: auto; border: 2px solid #ddd; border-radius: 9px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); margin-right: 20px;">
-        <figcaption style="text-align: left; font-style: italic; font-size: 16px; color:#81C784;">
-          Raven Jay Hope is an undergraduate research assistant working on digital therapeutics application to PTSD, in collaboration with film maker George Magner and Virtual Reality developer Dominique Vyborna.
-          </figcaption>
-          </figure>
-                     </p>
-                 <p>
-            <figure style="display: flex; align-items: center; max-width: 600px; margin: auto;">
-          <img src="X.jpeg" alt="MSc student Adriana Casado Rodriguez headshot" 
-           style="width: 200px; height: auto; border: 2px solid #ddd; border-radius: 9px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); margin-right: 20px;">
-          <figcaption style="text-align: left; font-style: italic; font-size: 16px; color:#81C784;">
-           Adriana Casado Rodriguez is a Masters student working on memory engrams and extinction of fear memories, in collaboration with Gabriella (Ella) Margetts-Smith and Dr Paul Banks.
-          </figcaption>
-          </figure>
-                     </p>
-                   <p>
-            <figure style="display: flex; align-items: center; max-width: 600px; margin: auto;">
-          <img src="X.jpeg" alt="MSc student Tom Bishton headshot" 
-           style="width: 200px; height: auto; border: 2px solid #ddd; border-radius: 9px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); margin-right: 20px;">
-          <figcaption style="text-align: left; font-style: italic; font-size: 16px; color:#81C784;">
-          Tom Bishton is a Masters student working on modelling hypervigilant responses in rodents.
-          </figcaption>
-          </figure>
-                     </p>
-                
-      <p>
-        <h3>Implicit Memory Lab Alumni</h3>
-        <ul>
-          <li>Dr. Emily Rebecca Sherman (PhD student)
-          <li> Jialu Li (MSc student)
-            <li> Nadin Szabo (MSc student)
-              <li> Aoife Houghton Stevens (MSc student)
-              <li> Danny Iznov (MSc student)
-                <li> Maryam Hassan (Summer UG research student)
-                  <li> Nazifa Fawzia (Summer UG research student)
-          </li>
-        </ul>
-   </div> 
+              </figcaption>
+            </figure>
+
+            <!-- Add additional lab members here -->
+          </div>
+
           <div id="Research-tool-sharing" class="content-region hide">
             <h2>Research Tools Share</h2>
-            <p> Here are some links to resources developed by the Team for research applications. 
-              Here is a repository for code to score behaviour with a button push in MatLab (ScoreAny) developed with Celine Benquet and Dr George Vousden. 
-              Here is a link to the MouseTube repository for the sharing and analysis of rodent ultrasonic vocalisations (USVs). 
-            </p>
-             </div>
+            <p>Here are some links to resources developed by the Team for research applications. Here is a repository for code to score behaviour with a button push in MatLab (ScoreAny) developed with Celine Benquet and Dr George Vousden. Here is a link to the MouseTube repository for the sharing and analysis of rodent ultrasonic vocalisations (USVs).</p>
+          </div>
+        </div>
       </div>
     </div>
-   </div>
-<style>
-footer {
-    font-size: 10px;
-}
-</style>
 
-    <footer>  
-       This is a simple website template published with Github Pages. <a href="https://github.com/cpl-makerlab/simple-website-template">Fork this repository</a> to create your own site!
+    <footer>
+      This is a simple website template published with Github Pages. <a href="https://github.com/cpl-makerlab/simple-website-template">Fork this repository</a> to create your own site!
     </footer>
     
-    <!-- Load additional JS scripts here -->
+    <!-- Add the JavaScript -->
     <script type="text/javascript" src="script.js"></script>
-    
   </body>
 </html>
